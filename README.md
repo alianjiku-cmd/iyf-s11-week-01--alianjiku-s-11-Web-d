@@ -40,4 +40,11 @@
 -hidden input
 - submit button
 3.	*Take a screenshot of the Elements panel*
+  <img width="1280" height="1169" alt="image" src="https://github.com/user-attachments/assets/ecdc393a-181c-4c58-a33e-71b196125418" />
+
+
+**Task 1.3:My  First Webpage **
+
+
+
 
