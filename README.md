@@ -39,7 +39,7 @@
 -search input
 -hidden input
 - submit button
-3.	*Take a screenshot of the Elements panel*
+3.	*A screenshot of the Elements panel*
   <img width="1280" height="1169" alt="image" src="https://github.com/user-attachments/assets/ecdc393a-181c-4c58-a33e-71b196125418" />
 
 
@@ -62,7 +62,8 @@
         especially IT,Food & Bevarage production and services & science, and technology.
     </p>
 
-    <img src="https://placeholder.co/300x200" alt="Placeholder Image">
+    <img src="https://placeholder.co/300x200" alt="Placeholder Image"><img width="267" height="189" alt="image" src="https://github.com/user-attachments/assets/1e644dbf-b37a-4a75-9ee9-0ea625cd5bfa" />
+
 
     <h2>My Hobbies and Interests</h2>
     <ul>
