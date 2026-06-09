@@ -62,7 +62,8 @@
         especially IT,Food & Bevarage production and services & science, and technology.
     </p>
 
-    <img src="https://placeholder.co/300x200" alt="Placeholder Image">
+    <img src="https://placeholder.co/300x200" alt="Placeholder Image"><img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/905271be-1b6d-4bfd-a99b-a56189ca15af" />
+
 
     <h2>My Hobbies and Interests</h2>
     <ul>
