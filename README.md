@@ -74,42 +74,59 @@ Task 2.1: Semantic HTML
 
 GOOD Semantic version
 
-<header>
-    <div class="logo">My Site</div>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice's Electronics Shop</title>
+</head>
+<body>
 
-<main>
-    <article>
-        <h1>Welcome to My Site</h1>
-    
-     <section>
-    <h2> My career </h2>
-        <p>Iam Alice.Iam an electronic sales person.</p>
-      
-      <section>
-      <h3>The major items I sell</h3>
-        <p>I deal with laptops,phones, hard disks,extention cablebs name them 
+    <header>
+        <div class="logo">My Site</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Welcome to My Site</h1>
         
-        <section>
-        <h4>The major items I sell</h4>
-        <p>I deliver the electronics at your doorata delivery cost of sh.1500. Items paid once its                 delivered </p>
-     
-    </article>
+            <section>
+                <h2>My Career</h2>
+                <p>I am Alice. I am an electronics sales person.</p>
+            </section>
+          
+            <section>
+                <h2>Products and Services</h2>
+                <h3>The major items I sell</h3>
+                <p>I deal with laptops, phones, hard disks, extension cables, and more.</p>
+                
+                <h3>Delivery Policy</h3>
+                <p>I deliver the electronics to your doorstep at a delivery cost of Sh. 1,500. Items are paid for once they are delivered.</p>
+            </section>
+        </article>
 
-    <aside>
-        <section class="widget">
-            <h2>https://github.com/alianjiku-cmd/alianjiku.cmd</h2>
-        
- 
-</main>
+        <aside>
+            <section class="widget">
+                <h2>Developer Profile</h2>
+                <p>Check out my code on <a href="https://github.com" rel="noopener" target="_blank">GitHub</a>.</p>
+            </section>
+        </aside>
+    </main>
 
-<footer>
-    <https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp>
-</footer>
+    <footer>
+        <figure>
+            <img src="https://ebayimg.com" alt="Featured electronic products layout">
+            <figcaption>Our featured electronics inventory</figcaption>
+        </figure>
+    </footer>
+
+</body>
+</html>
