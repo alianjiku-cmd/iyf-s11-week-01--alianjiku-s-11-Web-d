@@ -90,8 +90,7 @@
 Task 2.1: Semantic HTML Conversion
 -Goood structured HTML to semantic HTML:
 
-
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -101,7 +100,7 @@ Task 2.1: Semantic HTML Conversion
 <body>
     <h1>Alice</h1>
  <p>Hi am a student</p>
-
+<img src="https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp">
  <section>
     <h2>My hobbies </h2>
     <p>I like to play football and basketball</p>
@@ -111,4 +110,5 @@ Task 2.1: Semantic HTML Conversion
     <p>copyright &copy; Alice. All rights reserved.</p>
  </footer>
 </body>
-</html> 
+</html>
+
