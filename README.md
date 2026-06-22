@@ -72,90 +72,34 @@
 ###**Lesson 2 Tasks**
 Task 2.1: Semantic HTML 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+<!-- GOOD: Semantic version -->
+<header>
+    <div class="logo">My Site</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: calibri, sans-serif;
-        
-        }
+<main>
+    <article>
+        <h1>Welcome to My Site</h1>
+        <p>Iam Alice.Iam an electronic sales person.</p>
+        <p>I deal with laptops,phones, hard disks,extention cablebs name them </p>
+        <p>I deliver the electronics at your doorata delivery cost of sh.1500. Items paid once its                 delivered </p>
+     
+    </article>
 
-        header {
-            background: #f3f1f1;
-            text-align: left;
-            padding: 50px 20px;
-        }
+    <aside>
+        <section class="widget">
+            <h2>https://github.com/alianjiku-cmd/alianjiku.cmd</h2>
+        </section>
+    </aside>
+</main>
 
-        /* Logo Design */
-        .logo-box {
-            position: relative;
-            width: 250px;
-            height: 250px;
-            margin: 0 ;
-        }
-
-        .center-square {
-            position: absolute;
-            width: 70px;
-            height: 70px;
-            background: #3b5cff;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .corner {
-            position: absolute;
-            width: 70px;
-            height: 70px;
-            border: 20px solid #e85b6a;
-        }
-
-        .top-left {
-            top: 20px;
-            left: 20px;
-            border-right: none;
-            border-bottom: none;
-        }
-
-        .top-right {
-            top: 20px;
-            right: 20px;
-            border-left: none;
-            border-bottom: none;
-        }
-
-        .bottom-left {
-            bottom: 20px;
-            left: 20px;
-            border-right: none;
-            border-top: none;
-        }
-
-        .bottom-right {
-            bottom: 20px;
-            right: 20px;
-            border-left: none;
-            border-top: none;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="logo-box">
-            <div class="center-square"></div>
-            <div class="corner top-left"></div>
-            <div class="corner top-right"></div>
-            <div class="corner bottom-left"></div> 
-            <div class="corner bottom-right"></div>
-        </div>
-    </header>
-</body>
-</html>
-
+<footer>
+    <small>© 2026</small>
+</footer>
