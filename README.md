@@ -72,7 +72,8 @@
 ###**Lesson 2 Tasks**
 Task 2.1: Semantic HTML 
 
-<!-- GOOD: Semantic version -->
+GOOD Semantic version
+
 <header>
     <div class="logo">My Site</div>
     <nav>
@@ -87,8 +88,17 @@ Task 2.1: Semantic HTML
 <main>
     <article>
         <h1>Welcome to My Site</h1>
+    
+     <section>
+    <h2> My career </h2>
         <p>Iam Alice.Iam an electronic sales person.</p>
-        <p>I deal with laptops,phones, hard disks,extention cablebs name them </p>
+      
+      <section>
+      <h3>The major items I sell</h3>
+        <p>I deal with laptops,phones, hard disks,extention cablebs name them 
+        
+        <section>
+        <h4>The major items I sell</h4>
         <p>I deliver the electronics at your doorata delivery cost of sh.1500. Items paid once its                 delivered </p>
      
     </article>
@@ -96,10 +106,10 @@ Task 2.1: Semantic HTML
     <aside>
         <section class="widget">
             <h2>https://github.com/alianjiku-cmd/alianjiku.cmd</h2>
-        </section>
-    </aside>
+        
+ 
 </main>
 
 <footer>
-    <small>© 2026</small>
+    <https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp>
 </footer>
