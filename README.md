@@ -44,7 +44,7 @@
 
 
 
-**Task 1.3: My First Webpage** 
+**Task 1.3: My First Webpage** (Web foundation)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -84,4 +84,47 @@
 
 </body>
 </html>
+
+
+###**Lesson 2 Tasks**
+Task 2.1: Semantic HTML Conversion
+-Goood structured HTML to semantic HTML:
+<header>
+    <h1>My Site</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h2>Welcome to My Site</h2>
+        <p>>My name is Alice and Iam a </p>
+        <p>Iam an electronics salesperson</p>
+        <p>I sell laptops,extension cables,hard disk,phones,chargers,usb cables and any other electronics you may require</p>
+
+    </article>
+
+        body {
+            margin: 0;
+            font-family: calibri, sans-serif;
+        
+        }
+        
+        
+
+    <aside>
+        <section class="widget">
+            <h3>recent post</h3>
+        </section>
+    </aside>
+</main>
+
+<footer>
+    <p>© 2026</p>
+</footer>
 
