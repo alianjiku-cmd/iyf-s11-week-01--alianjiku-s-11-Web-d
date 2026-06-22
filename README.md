@@ -57,3 +57,59 @@
 
 </body>
 </html>
+
+
+###**Task 2.2: Building a Contact Form**
+
+    
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me!</title>
+</head>
+<body>
+
+    <form>
+        <!Alice Wanjiku Murungaruh
+        <label>Alice Wanjiku Murungaruh:</label>
+     <input type="My contact list" >
+        <br><br>
+
+        <!-- alianjiku@gmail.com-->
+        <label>Email:alianjiku@gmail.com</label>
+        <input type="email" value="alianjiku@gmail.com" >
+        <br><br>
+
+        <!-- Phone -->
+        <label>Phone (0715511031):</label>
+        <input type="tel">
+        <br><br>
+
+        <!-- contact form  -->
+        <label>web development:</label>
+        <select>
+            <option>Pick a choice!</option>
+            <option>Saying Hello</option>
+            <option>Ask a Question</option>
+            <option>Report a Bug</option>
+        </select>
+        <br><br>
+
+        <!-- Message -->
+        <label>Message (50+ characters):</label>
+        <textarea required minlength="50"></textarea>
+        <br><br>
+
+        <!-- Newsletter -->
+        <input type="checkbox" id="news">
+        <label for="news">Subscribe to Newsletter?</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+    </form>
+
+</body>
+</html> 
+
