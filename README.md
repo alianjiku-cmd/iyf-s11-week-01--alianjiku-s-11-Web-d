@@ -51,50 +51,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iam Alice a web developer </title>
-</head>
-<body>
-
-    <h1>Alice</h1>
-
-    <p>
-        Hello! My name is Alice. I am a student who enjoys learning new things,
-        especially IT,Food & Bevarage production and services & science, and technology.
-    </p>
-
-    <img src="https://placeholder.co/300x200" alt="Placeholder Image">
-
-
-    <h2>My Hobbies and Interests</h2>
-    <ul>
-        <li>Reading books</li>
-        <li>Playing football</li>
-        <li>Learning about computers</li>
-    </ul>
-
-    <p>
-        My favorite website:
-        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
-    </p>
-
-    <p>
-        Contact me:
-        <a href="murungaruh:Alice@example.com">Alice@example.com</a>
-    </p>
-
-</body>
-</html>
-
-
-###**Lesson 2 Tasks**
-Task 2.1: Semantic HTML Conversion
--Goood structured HTML to semantic HTML:
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>- Iam Alice</title>
 </head>
 <body>
@@ -109,6 +65,97 @@ Task 2.1: Semantic HTML Conversion
  <footer>
     <p>copyright &copy; Alice. All rights reserved.</p>
  </footer>
+</body>
+</html>
+
+
+###**Lesson 2 Tasks**
+Task 2.1: Semantic HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: calibri, sans-serif;
+        
+        }
+
+        header {
+            background: #f3f1f1;
+            text-align: left;
+            padding: 50px 20px;
+        }
+
+        /* Logo Design */
+        .logo-box {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 0 ;
+        }
+
+        .center-square {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background: #3b5cff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .corner {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            border: 20px solid #e85b6a;
+        }
+
+        .top-left {
+            top: 20px;
+            left: 20px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .top-right {
+            top: 20px;
+            right: 20px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .bottom-left {
+            bottom: 20px;
+            left: 20px;
+            border-right: none;
+            border-top: none;
+        }
+
+        .bottom-right {
+            bottom: 20px;
+            right: 20px;
+            border-left: none;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <div class="center-square"></div>
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div> 
+            <div class="corner bottom-right"></div>
+        </div>
+    </header>
 </body>
 </html>
 
