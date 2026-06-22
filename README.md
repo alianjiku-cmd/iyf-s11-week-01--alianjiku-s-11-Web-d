@@ -44,6 +44,7 @@
 
 
 
+
 **Task 1.3: My First Webpage** (index.html)
 
 <!DOCTYPE html>
@@ -116,8 +117,7 @@ GOOD Semantic version
         <aside>
             <section class="widget">
                 <h2>Developer Profile</h2>
-                <p>Check out my code on <a href="https://github.com" rel="noopener" target="_blank">GitHub</a>.</p>
-            </section>
+     
         </aside>
     </main>
 
