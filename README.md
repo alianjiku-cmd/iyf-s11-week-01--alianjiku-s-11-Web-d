@@ -191,25 +191,5 @@ lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20for
 
 
 ###**Task 2.3: Accessibility Audit**
+*Accessibility-report.md link (https://github.com/alianjiku-cmd/accessibility-report.md)*
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>- Iam Alice</title>
-</head>
-<body>
-    <h1>Alice</h1>
- <p>Hi am a student</p>
-<img src="https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp" alt="Portrait illustration of a young woman with long dark hair, wearing a white sweater, looking directly forward against a soft blue background.">
- <section>
-    <h2>My hobbies </h2>
-    <p>I like to play football and basketball games</p>
- </section>S
-
- <footer>
-    <p>copyright &copy; Alice. All rights reserved.</p>
- </footer>
-</body>
-</html>
