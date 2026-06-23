@@ -1,6 +1,6 @@
 #**Task 2.1: Semantic HTML Conversation**
 
-*GOOD Semantic version*
+*Good Semantic version*
 
 <!DOCTYPE html>
 <html lang="en">
