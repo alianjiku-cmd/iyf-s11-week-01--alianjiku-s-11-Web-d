@@ -610,3 +610,50 @@ lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20for
 
 **Day 2: Navigation Menu**
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px 30px;
+        }
+
+        .logo{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links a{
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .nav-links a:hover{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">My Website</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+</body>
+</html>
