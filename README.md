@@ -62,7 +62,7 @@
 ###**Task 2.2: Building a Contact Form**
 
     
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -485,5 +485,130 @@ lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20for
 
 **(3.)projects.html**
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .project-card h3 {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>My Portfolio</h1>
+    
+    <div class="project-grid">
+        <!-- Project 1 Placeholder -->
+        <div class="project-card">
+            <img src="https://placeholder.com" alt="Project 1">
+            <h3>Introduction to git and github</h3>
+            <p>Summary report for Introduction to git and github.</p>
+        </div>
+
+        <!-- Project 2 Placeholder -->
+        <div class="project-card">
+            <img src="https://placeholder.com" alt="Project 2">
+            <h3>Installing extentions on vs code</h3>
+            <p>Summary report for Installing extentions on vs code.</p>
+        </div>
+
+        <!-- Project 3 Placeholder -->
+        <div class="project-card">
+            <img src="https://placeholder.com" alt="Project 3">
+            <h3>Web development basics</h3>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
 **(4)contact.html**
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me!</title>
+</head>
+<body>
+
+    <form>
+        <!Alice Wanjiku Murungaruh
+        <label>Alice Wanjiku Murungaruh:</label>
+     <input type="My contact list" >
+        <br><br>
+
+        <!-- alianjiku@gmail.com-->
+        <label>Email:alianjiku@gmail.com</label>
+        <input type="email" value="alianjiku@gmail.com" >
+        <br><br>
+
+        <!-- Phone -->
+        <label>Phone (0715511031):</label>
+        <input type="tel">
+        <br><br>
+
+        <!-- contact form  -->
+        <label>web development:</label>
+        <select>
+            <option>java!</option>
+            <option>How are you this wonderful day</option>
+            <option>Have you heard of java in you day today experience while interacting with different technology?</option>
+            <option>logical bug  is the major reason why a function calculates a discount but gets the math wrong. </option>
+        </select>
+        <br><br>
+
+        <!-- Message -->
+        <label>Message (java is a powerful object-oriented programming language designed for portability. It allows the developers to "write once,run anywhere(WORA) meaning the compiled  code can ru on any device supporting the java virtual machine (JVM)"):</label>
+        <textarea required minlength="50"></textarea>
+        <br><br>
+
+        <!-- Newsletter -->
+        <input type="checkbox" id="news">
+        <label for="news">Subscribe to Newsletter?</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+    </form>
+
+</body>
+</html> 
+lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20form.html
+
 
