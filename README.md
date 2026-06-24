@@ -115,81 +115,6 @@
 lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20form.html
 
 
-
-
-###**Daily Challenges**
-**Day 1: Five Tags Challenge**
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Review and Discussion Webinar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 600px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-
-        }
-        article {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        details {
-            margin-top: 20px;
-            padding: 10px;
-            background: #eeeeee;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        summary {
-            font-weight: bold;
-        }
-        time {
-            color: #666666;
-            font-size: 0.9em;
-        }
-    </style>
-</head>
-<body>
-
-    <article>
-        <h1>Monthly Book Club Review webinar</h1>
-        <p>Published on: <time datetime="2026-06-22">June 22, 2026</time></p>
-        
-        <p>This month, our club focused on classic dystopian literature. We analyzed how authors predict the future, focusing heavily on technological surveillance and government control.</p>
-        
-        <blockquote>
-            "Perhaps a lunatic was simply a minority of one." 
-            <br>
-            — <cite>1984</cite> by George Orwell
-        </blockquote>
-
-        <p>During our group discussion, we found that the main themes still mirror modern society. It is <mark>incredibly important</mark> to note how relevant these warnings remain today, especially regarding data privacy.</p>
-
-        <details>
-            <summary>Click here to view our meeting notes</summary>
-            <ul>
-                <li>Attendance: 10 members</li>
-                <li>Next meeting date: July 4th</li>
-                <li>Next book choice: <i>Freedom by Jonathan Franzen</i></li>
-            </ul>
-        </details>
-    </article>
-
-</body>
-</html>
-
-
-
-
 ###**Task 2.3: Accessibility Audit**
 *Accessibility-report.md link (https://github.com/alianjiku-cmd/accessibility-report.md)*
 
@@ -611,4 +536,77 @@ lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20for
 </html> 
 lfile:///C:/Users/JetCore%20Computers/Desktop/good%20semantic-html/contact%20form.html
 
+
+###**Daily Challenges**
+**Day 1: Five Tags Challenge**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review and Discussion Webinar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+
+        }
+        article {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        details {
+            margin-top: 20px;
+            padding: 10px;
+            background: #eeeeee;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: bold;
+        }
+        time {
+            color: #666666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <h1>Monthly Book Club Review webinar</h1>
+        <p>Published on: <time datetime="2026-06-22">June 22, 2026</time></p>
+        
+        <p>This month, our club focused on classic dystopian literature. We analyzed how authors predict the future, focusing heavily on technological surveillance and government control.</p>
+        
+        <blockquote>
+            "Perhaps a lunatic was simply a minority of one." 
+            <br>
+            — <cite>1984</cite> by George Orwell
+        </blockquote>
+
+        <p>During our group discussion, we found that the main themes still mirror modern society. It is <mark>incredibly important</mark> to note how relevant these warnings remain today, especially regarding data privacy.</p>
+
+        <details>
+            <summary>Click here to view our meeting notes</summary>
+            <ul>
+                <li>Attendance: 10 members</li>
+                <li>Next meeting date: July 4th</li>
+                <li>Next book choice: <i>Freedom by Jonathan Franzen</i></li>
+            </ul>
+        </details>
+    </article>
+
+</body>
+</html>
+
+
+**Day 2: Navigation Menu**
 
